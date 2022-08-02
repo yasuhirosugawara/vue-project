@@ -4,7 +4,11 @@ import HelloWorld from '@/components/HelloWorld.vue'
 </script>
 
 <template>
-<div></div>
+<div>
+  <RouterLink to="/">Home</RouterLink>
+  <RouterLink to="/hoge">Hoge</RouterLink>
+  <RouterView />
+</div>
 </template>
 
 <script>
