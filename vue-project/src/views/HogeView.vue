@@ -13,9 +13,8 @@ import axios from 'axios'
 <script>
 export default {
   mounted() {
-    axios.get('https://sample.novalumoapis.com/api/users').then((res) => {
-      this.users = res.data
-    })
+    axios.get('https://sample.novalumoapis.com/api/users')
+    .then((res) => {this.users = res.data})
   },
   data() {
     return {

@@ -7,6 +7,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 <div>
   <RouterLink to="/">Home</RouterLink>
   <RouterLink to="/hoge">Hoge</RouterLink>
+  <RouterLink to="/hoge2">Hoge2</RouterLink>
   <RouterView />
 </div>
 </template>
