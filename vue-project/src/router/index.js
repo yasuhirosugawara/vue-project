@@ -31,6 +31,11 @@ const router = createRouter({
       path: '/hoge2',
       name: 'hoge2',
       component: () => import('../views/Hoge2View.vue')
+    },
+    {
+      path: '/posts',
+      name: 'posts',
+      component: () => import('../views/PostsView.vue')
     }
   ]
 })
