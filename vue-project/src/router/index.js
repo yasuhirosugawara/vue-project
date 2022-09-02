@@ -41,6 +41,26 @@ const router = createRouter({
       path: '/posts2',
       name: 'posts2',
       component: () => import('../views/Posts2View.vue')
+    },
+    {
+      path: '/comments',
+      name: 'comments',
+      component: () => import('../views/CommentsView.vue')
+    },
+    {
+      path: '/comments2',
+      name: 'comments2',
+      component: () => import('../views/Comments2View.vue')
+    },
+    {
+      path: '/todos',
+      name: 'todos',
+      component: () => import('../views/TodosView.vue')
+    },
+    {
+      path: '/todos2',
+      name: 'todos2',
+      component: () => import('../views/Todos2View.vue')
     }
   ]
 })

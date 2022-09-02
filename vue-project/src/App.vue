@@ -6,19 +6,23 @@ import HelloWorld from '@/components/HelloWorld.vue'
 <template>
 <div>
   <RouterLink to="/">Home</RouterLink><br>
-  <RouterLink to="/hoge">Hoge</RouterLink><br>
-  <RouterLink to="/hoge2">Hoge2</RouterLink><br>
-  <RouterLink to="/posts">posts</RouterLink><br>
-  <RouterLink to="/posts2">posts2</RouterLink>
+  <p><RouterLink to="/hoge">Hoge</RouterLink>　
+  <RouterLink to="/hoge2">Hoge2</RouterLink></p>
+  <p><RouterLink to="/posts">posts</RouterLink>　
+  <RouterLink to="/posts2">posts2</RouterLink></p>
+  <p><RouterLink to="/comments">comments</RouterLink>　
+  <RouterLink to="/comments2">comments2</RouterLink></p>
+  <p><RouterLink to="/todos">todos</RouterLink>　
+    <RouterLink to="/todos2">todos2</RouterLink></p>
   <RouterView />
 </div>
 </template>
 
-<script>
+<!-- <script>
 import axios from "axios"
 export default{
   mounted(){
     axios.get('https://sample.novalumoapis.com/api/users')
   }
 }
-</script>
+</script> -->
