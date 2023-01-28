@@ -1,2 +1,3 @@
 # vue-project
-# https://sample.novalumoapis.com/
+# https://sample-api.atgp-sby.com/
+# https://reffect.co.jp/vue/vue-axios-learn
